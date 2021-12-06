@@ -2,12 +2,19 @@ package pl.testuj.oop;
 
 public class Dog extends Animal implements Petable, Runnable {
 
+    private static int count = 0;
+
     public Dog() {
+        count++;
         System.out.println("Konstruktor klasy Dog");
     }
 
     public void testDog() {
 
+    }
+
+    public static int getNumCount() {
+        return count;
     }
 
     @Override

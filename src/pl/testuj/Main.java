@@ -1,5 +1,7 @@
 package pl.testuj;
 
+import pl.testuj.access.HighSchool;
+import pl.testuj.access.University;
 import pl.testuj.oop.Animal;
 import pl.testuj.oop.Cat;
 import pl.testuj.oop.Dog;
@@ -10,6 +12,12 @@ public class Main {
     public static void main(String[] args) {
         // klasa Animal jest abstrakcyjna, więc nie mogę stworzyć jej instancji
 //	    Animal animal = new Animal();
+
+        University university = new University();
+        university.name = "Politechnika";
+
+        HighSchool highSchool = new HighSchool();
+        highSchool.name = "";
 
         Dog dog = new Dog();
         Cat cat = new Cat();

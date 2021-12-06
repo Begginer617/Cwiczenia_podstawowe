@@ -2,14 +2,16 @@ package pl.testuj;
 
 import pl.testuj.access.HighSchool;
 import pl.testuj.access.University;
-import pl.testuj.oop.Animal;
-import pl.testuj.oop.Cat;
-import pl.testuj.oop.Dog;
-import pl.testuj.oop.Elephant;
+import pl.testuj.oop.*;
 
 public class Main {
 
     public static void main(String[] args) {
+        Petable petable = new Dog();
+        petable.pet();
+        petable.printMsg();
+
+
         // klasa Animal jest abstrakcyjna, więc nie mogę stworzyć jej instancji
 //	    Animal animal = new Animal();
 
@@ -20,6 +22,7 @@ public class Main {
         highSchool.name = "";
 
         Dog dog = new Dog();
+        dog.testDog();
         Cat cat = new Cat();
 
         Animal animalDog = new Dog();

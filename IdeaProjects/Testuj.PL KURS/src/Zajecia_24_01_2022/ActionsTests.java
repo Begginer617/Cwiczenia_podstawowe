@@ -1,9 +1,8 @@
 package Zajecia_24_01_2022;
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.interactiongits.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

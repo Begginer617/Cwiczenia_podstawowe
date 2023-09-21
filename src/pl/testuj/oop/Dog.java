@@ -23,6 +23,11 @@ public class Dog extends Animal implements Petable, Runnable {
     }
 
     @Override
+    public void useSuperPowers() {
+
+    }
+
+    @Override
     public int getAge(int x) {
         return 0;
     }
@@ -35,5 +40,10 @@ public class Dog extends Animal implements Petable, Runnable {
     @Override
     public void run() {
 
+    }
+
+    @Override
+    public void setDupa(int dupa) {
+        super.setDupa(dupa);
     }
 }

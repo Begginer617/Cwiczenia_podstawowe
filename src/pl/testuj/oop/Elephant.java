@@ -7,6 +7,11 @@ public class Elephant extends Animal {
     }
 
     @Override
+    public void useSuperPowers() {
+
+    }
+
+    @Override
     public int getAge(int x) {
         return 0;
     }

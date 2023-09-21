@@ -1,8 +1,10 @@
 package pl.testuj;
 
-import pl.testuj.access.HighSchool;
-import pl.testuj.access.University;
-import pl.testuj.oop.*;
+import pl.testuj.oop.Animal;
+import pl.testuj.oop.Dog;
+
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
 
@@ -11,10 +13,22 @@ public class Main {
 
         subClass.message();
 //        System.out.println(University.PI);
+
+        ArrayList<Integer> list10 = new ArrayList<Integer>(); // deklaracja i inicjalizacja pustej listy
+        ArrayList<String> cities = new ArrayList<>(Arrays.asList("Tokyo", "London", "New York")); // Deklaracja i inicjalizacja listy z dodaniem elementow
+        ArrayList<Integer> list = new ArrayList<Integer>(); // dododanie nowego elementu do listy
+        list.add(1);
+        System.out.println(list10 + "wystwetlenie pustej listy");
+        System.out.println(list + "dodanie nowego elementu");
+
+        int[] tablaca1 = new int[10];
+        String[] tablica2 = {"Sraka", "Ptaka"};
+
+
 //
 //        Dog pies = new Dog();
 //        System.out.println("Wartość pola statycznego count: " + Dog.getNumCount());
-//
+////
 //        Dog pies2 = new Dog();
 //        System.out.println("Wartość pola statycznego count: " + Dog.getNumCount());
 //        System.out.println("Wartość pola statycznego count: " + Dog.getNumCount());

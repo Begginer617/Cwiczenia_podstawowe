@@ -1,19 +1,16 @@
 package pl.testuj.oop;
 
-public class Cat extends Animal {
+public class Super_Dupa extends Animal {
 
-    public Cat() {
-        System.out.println("konstruktor klasy kot");
-    }
 
     @Override
     public void useVoice() {
-        System.out.println("Meow");
+        System.out.println("bakbkabakbakabakbakabkabakkabak");
     }
 
     @Override
     public void useSuperPowers() {
-
+        System.out.println("Super moce");
     }
 
     @Override
